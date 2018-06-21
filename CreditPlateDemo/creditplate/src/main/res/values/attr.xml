@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CreditCheckView">
+        <!--是否根据信用值变色-->
+        <attr name="is_change_color" format="boolean" />
+        <!--非常差的颜色-->
+        <attr name="bad_color" format="color" />
+        <!--中等的颜色-->
+        <attr name="medium_color" format="color" />
+        <!--好的颜色-->
+        <attr name="good_color" format="color" />
+        <!--最好的颜色-->
+        <attr name="best_color" format="color" />
+        <!--非常非常好-->
+        <attr name="tiptop_color" format="color" />
+        <!--颜色不变的时候的颜色-->
+        <attr name="normal_color" format="color" />
+        <!--默认的信用值-->
+        <attr name="default_credit_num" format="integer" />
+        <!--最大值-->
+        <attr name="max_credit_num" format="integer" />
+        <attr name="pointer_color" format="color" />
+    </declare-styleable>
+</resources>
